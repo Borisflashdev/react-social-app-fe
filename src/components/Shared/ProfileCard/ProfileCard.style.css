@@ -1,0 +1,21 @@
+.pfp-card {
+  width: 18rem;
+}
+
+.pfp {
+  width: 150px;
+}
+
+.pfp-card-bg {
+  background: linear-gradient(
+    to top,
+    white 0%,
+    white 50%,
+    #dc3545 50%,
+    #dc3545 100%
+  );
+}
+
+.info-border {
+  border-top: 1px #d2d2d2 solid;
+}

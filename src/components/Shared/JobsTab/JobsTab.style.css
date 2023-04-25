@@ -1,0 +1,16 @@
+.jobs-card {
+  width: 18rem !important;
+}
+
+.job-text {
+  text-align: start !important;
+}
+
+.job-text b {
+    font-size: 15px;
+}
+
+.job-text p {
+    font-size: 13px;
+    margin-bottom: 0px !important;
+}
