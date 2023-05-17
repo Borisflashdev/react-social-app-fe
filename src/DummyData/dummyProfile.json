@@ -1,42 +1,42 @@
 [
   {
     "profilePic": "https://wallpapers.com/images/hd/shadow-boy-white-eyes-unique-cool-pfp-nft-13yuypusuweug9xn.jpg",
-    "name": "John Doe",
-    "bio": "Graphic Designer at Self Employed",
+    "firstName": "John Doe",
+    "overview": "Graphic Designer at Self Employed",
     "following": 34,
     "followers": 155,
     "job": "PHP Developer"
   },
   {
     "profilePic": "https://gambolthemes.net/workwise-new/images/resources/s2.png",
-    "name": "Maximilian",
-    "bio": "Graphic Designer at Self Employed",
+    "firstName": "Maximilian",
+    "overview": "Graphic Designer at Self Employed",
     "following": 34,
-    "followers": 155,
+    "followers": 1200,
     "job": "Wordpress Developer"
   },
   {
     "profilePic": "https://gambolthemes.net/workwise-new/images/resources/s3.png",
-    "name": "Poonam",
-    "bio": "Graphic Designer at Self Employed",
+    "firstName": "Poonam",
+    "overview": "Graphic Designer at Self Employed",
     "following": 34,
-    "followers": 155,
+    "followers": 1000,
     "job": "PHP Developer"
   },
   {
     "profilePic": "https://gambolthemes.net/workwise-new/images/resources/s6.png",
-    "name": "Bill Gates",
-    "bio": "Graphic Designer at Self Employed",
+    "firstName": "Bill Gates",
+    "overview": "Graphic Designer at Self Employed",
     "following": 34,
-    "followers": 155,
+    "followers": 300,
     "job": "C & C++ Developer"
   },
   {
     "profilePic": "https://gambolthemes.net/workwise-new/images/resources/s5.png",
-    "name": "Jessica William",
-    "bio": "Graphic Designer at Self Employed",
+    "firstName": "Jessica William",
+    "overview": "Graphic Designer at Self Employed",
     "following": 34,
-    "followers": 155,
+    "followers": 123,
     "job": "Graphic Developer"
   }
 ]

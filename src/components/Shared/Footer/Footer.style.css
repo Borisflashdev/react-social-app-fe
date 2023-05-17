@@ -1,0 +1,26 @@
+.footer-card {
+  width: 288px;
+}
+
+.footer-text {
+  font-size: 15px;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.logo {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.cp {
+  color: gray;
+}

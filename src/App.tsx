@@ -6,6 +6,8 @@ import BookmarksPage from "./pages/BookmarksPage/BookmarksPage";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import SettingsPage from "./pages/SettingsPage/SettingsPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
+import SignupPage from "./pages/SignupPage/SignupPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/myProfile" element={<ProfilePage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/aboutUs" element={<AboutUsPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </div>
   );

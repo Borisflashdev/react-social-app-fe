@@ -1,12 +1,19 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./Navbar.style.css";
 
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
+  const navigate = useNavigate();
+  function logOut() {
+    localStorage.removeItem("user_id");
+    navigate("/aboutUs");
+  }
   return (
     <nav className="navbar navbar-expand-lg bg-danger mb-5">
       <div className="container-fluid">
@@ -66,7 +73,7 @@ function Navbar() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item log-out" onClick={logOut}>
                     Log Out
                   </a>
                 </li>

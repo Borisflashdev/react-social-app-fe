@@ -4,7 +4,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import ProfileCard from "../../components/Shared/ProfileCard/ProfileCard";
 import PostInput from "../../components/Shared/PostInput/PostInput";
 import JobsTab from "../../components/Shared/JobsTab/JobsTab";
-import SuggestionsTab from "../../components/Shared/SuggestionsTab/SuggestionsTab";
+import ProfilesTab from "../../components/Shared/ProfilesTab/ProfilesTab";
+import Footer from "../../components/Shared/Footer/Footer";
 
 import DummyTopJobs from "../../DummyData/dummyJobs.json";
 import DummyProfile from "../../DummyData/dummyProfile.json";
@@ -15,7 +16,8 @@ function HomePage() {
       <center className="d-flex justify-content-center">
         <div>
           <ProfileCard />
-          <SuggestionsTab name="Suggestions" profile={DummyProfile} />
+          <ProfilesTab name="Suggestions" profile={DummyProfile} type="" />
+          <Footer />
         </div>
         <PostInput />
         <div>
@@ -24,6 +26,11 @@ function HomePage() {
             type="liked"
             name="Most Viewed This Week"
             ad={DummyTopJobs}
+          />
+          <ProfilesTab
+            name="Most Viewed People"
+            profile={DummyProfile}
+            type="liked"
           />
         </div>
       </center>
